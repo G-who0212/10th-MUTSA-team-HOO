@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+header h1{
+    text-align: center;
+}
+
+.about-food{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.about-food li{
+    padding: 7px 8px;
+}
+
+.letsMake{
+    text-align: center;
+    font-size: 30px;
+    font-weight: light;
+}
+
+.ingredients{
+    background-color: lightgreen;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.recipe-text{
+    margin-top: 10px;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image{
+    width: 500px;
+    height: auto;
+}
+
+.finish-top{
+    height: 35px;
+    width: 70%;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: skyblue;
+}
+
+.finish{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+footer{
+    display: flex;
+    background-color: #ebebeb;
+}
+
+footer p img{
+    width: 80px;
+    height: 80px;
+}
+
+footer div{
+    padding-left: 100px;
+}
+
+footer div p{
+    font-size: 15px;
+    color: grey;
+}
