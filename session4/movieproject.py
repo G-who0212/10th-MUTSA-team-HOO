@@ -1,8 +1,8 @@
 import os
 import sys
 import urllib.request # API로 요청을 올바르게 보내기 위해서 ipipmport함 
-client_id = "iIN2d281tAV1NI4ZHxSS" # 위에서 받은 클라이언트 ID 넣어줌
-client_secret = "P6r6AnZ3Kt" # 위에서 받은 시크릿키 넣어줌
+client_id = "---" # 위에서 받은 클라이언트 ID 넣어줌
+client_secret = "---" # 위에서 받은 시크릿키 넣어줌
 
 encText = urllib.parse.quote("star wars")
 url = "https://openapi.naver.com/v1/search/movie.json?query=" + encText # json 결과
