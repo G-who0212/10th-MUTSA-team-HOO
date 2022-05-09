@@ -7,8 +7,8 @@ import ssl
 import json
 import re
 
-client_id = "Ks13AzzrZopK6kTb4sl6" # 위에서 받은 클라이언트 ID 넣어줌
-client_secret = "sEG9aBcGDh" # 위에서 받은 시크릿키 넣어줌
+client_id = "" # 위에서 받은 클라이언트 ID 넣어줌
+client_secret = "" # 위에서 받은 시크릿키 넣어줌
 
 encText = urllib.parse.quote("어벤져스")
 url = "https://openapi.naver.com/v1/search/movie.json?query=" + encText # json 결과
@@ -28,7 +28,7 @@ if(rescode==200): # 성공일 때
     py_rt = json.loads(json_rt)
     
     for i in py_rt["items"]:
-        i["title"] = re.sub('(<([^>]+)>)','',i["title"])
+        a
         print(i["title"])
         print(i["link"])
         i["director"] = re.sub('[|]+',' ',i["director"])
